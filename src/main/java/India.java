@@ -50,14 +50,14 @@ public class India {
 //            }
 //        });
 
-        socket.emit("minersStat", "gzd24@profit.pool.bitcoin.com:3333", new Ack() {
+        socket.emit("minersStat", "gzd24x1@profit.pool.bitcoin.com:3333", new Ack() {
             @Override
             public void call(Object... objects) {
                 System.out.println(objects);
             }
         });
 
-
+        System.out.println("ok");
 //        socket.close();
     }
 }
